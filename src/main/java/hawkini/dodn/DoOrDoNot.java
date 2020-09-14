@@ -1,4 +1,4 @@
-package com.battlesnake.starter;
+package hawkini.dodn;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -22,10 +22,10 @@ import static spark.Spark.get;
  * For instructions see
  * https://github.com/BattlesnakeOfficial/starter-snake-java/README.md
  */
-public class Snake {
+public class DoOrDoNot {
     private static final ObjectMapper JSON_MAPPER = new ObjectMapper();
     private static final Handler HANDLER = new Handler();
-    private static final Logger LOG = LoggerFactory.getLogger(Snake.class);
+    private static final Logger LOG = LoggerFactory.getLogger(DoOrDoNot.class);
 
     /**
      * Main entry point.

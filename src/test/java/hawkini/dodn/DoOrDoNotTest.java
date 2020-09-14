@@ -1,4 +1,4 @@
-package com.battlesnake.starter;
+package hawkini.dodn;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -14,18 +14,18 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SnakeTest {
+public class DoOrDoNotTest {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     static {
         OBJECT_MAPPER.configure(JsonParser.Feature.ALLOW_SINGLE_QUOTES, true);
     }
 
-    private Snake.Handler handler;
+    private DoOrDoNot.Handler handler;
 
     @BeforeEach
     void setUp() {
-        handler = new Snake.Handler();
+        handler = new DoOrDoNot.Handler();
     }
 
     @Test

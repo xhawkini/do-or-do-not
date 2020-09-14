@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.battlesnake</groupId>
-    <artifactId>starter-snake-java</artifactId>
+    <groupId>hawkini.dodn</groupId>
+    <artifactId>do-or-do-not-do</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>starter-snake-java</name>
-    <description>Battlesnake starter snake written in Java!</description>
+    <name>do-or-do-not-do</name>
+    <description>Do or do not. There is no try!</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -94,14 +94,14 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        com.battlesnake.starter.Snake
+                                        hawkini.dodn.DoOrDoNot
                                     </mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
                                 <descriptorRef>jar-with-dependencies</descriptorRef>
                             </descriptorRefs>
-                            <finalName>starter-snake-java</finalName>
+                            <finalName>do-or-do-not-do</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                         </configuration>
                     </execution>

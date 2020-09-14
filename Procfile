@@ -1,1 +1,1 @@
-web: java -DPORT=$PORT -jar target/starter-snake-java.jar
+web: java -DPORT=$PORT -jar target/do-or-do-not-do.jar
